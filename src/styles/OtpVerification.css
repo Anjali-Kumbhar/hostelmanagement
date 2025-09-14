@@ -1,0 +1,62 @@
+/* otp.css */
+.otp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .otp-container {
+    background-color: #ffffff;
+    padding: 24px 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    max-width: 90vw;
+  }
+  
+  .otp-container h2 {
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+  
+  .otp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .otp-form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .otp-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+  }
+  
+  .otp-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .message {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #d9534f;
+  }
+  
